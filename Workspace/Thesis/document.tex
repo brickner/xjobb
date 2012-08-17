@@ -1,0 +1,32 @@
+\documentclass[a4paper,11pt]{report}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{lmodern}
+\usepackage[latin1]{inputenc}
+\usepackage[swedish]{babel}
+\usepackage{graphicx}
+\usepackage{float}
+
+
+\begin{document}
+\title{Tove's thesi's title}
+\author{Tove Brickner}
+\date{2012-08-17}
+%\removepagenumbers
+\maketitle
+
+\input{abstract}
+
+\tableofcontents*
+\listoffigures
+\listoftables
+%\mainmatter
+%\pagestyle{newchap}
+
+\input{figures}
+\input{tables}
+
+\bibliographystyle{ieeetr}
+\bibliography{reference}
+
+\end{document}
