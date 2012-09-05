@@ -1,0 +1,13 @@
+#TeXlipse project settings
+#Wed Sep 05 21:34:55 CEST 2012
+builderNum=2
+outputDir=
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=handlingsplan_mall.tex
+outputFile=Handlingsplan.pdf
+langSpell=en
+markDer=true
+srcDir=
